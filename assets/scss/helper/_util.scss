@@ -1,0 +1,83 @@
+
+.index-title {
+    font-size: 100px;
+  }
+  
+  .hover-bg-yellow:hover {
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 50px;
+  }
+  
+  .h-l {
+    max-height: 317px;
+  }
+  
+  .h {
+    max-height:255px;
+    width: 100%;
+  }
+  
+  .mly-5 {
+    margin-left: -5px;
+  }
+  
+  .mb-12 {
+    margin-bottom: 12px;
+  }
+  
+  .mt-0 {
+    margin-top: 0;
+  }
+  
+  .mt-60 {
+    margin-top: 60px;
+  }
+  
+  .pr-4 {
+    padding-right: 4px;
+  }
+  
+  .pt-35 {
+    padding-top: 35px;
+  }
+  
+  .pb-35 {
+    padding-bottom: 35px;
+  }
+  
+  .pt-279 {
+    padding-top: 279px;
+  }
+  
+  .plx {
+    padding-left: -12px;
+  }
+  
+  .w {
+    width: 16px;
+    max-height: 16px;
+  }
+  
+  .wl {
+    width: 31px;
+    max-height: 31px;
+}
+
+.mb-170 {
+    margin-bottom: 170px;
+}
+
+.wxl {
+    width: 100%;
+}
+
+.effect {
+    &:hover {
+        opacity: .9;
+    }
+}
+
+.p4{
+    padding: 4px;
+}

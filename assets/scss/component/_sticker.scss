@@ -1,0 +1,20 @@
+.h2-transform {
+    transform: translate(-50%, -50%) rotate(-4deg);
+}
+
+li {
+    &:nth-child(2n) {
+        transform: skew(-2deg);
+    }
+
+    &:nth-child(3) {
+        transform: skew(2deg);
+    }
+}
+
+.item {
+    img {
+        object-fit: cover;
+        height: 274px;
+    }
+}

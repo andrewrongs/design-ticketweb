@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../assets/scss/icofont/icofont.min.css" />
+  </head>
+  <body>
+    <div class="bg-gray border-bottom border-3 border-black">
+      <div class="container"><%- include('./layout/header'); -%></div>
+    </div>
+
+    <div class="bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12 d-flex d-lg-flex align-items-center align-items-lg-center flex-column">
+            <img
+              src="../assets/images/sparkler.png"
+              alt="LOGO"
+              class="img-fluid wl mt-10 mb-1"
+            />
+            <p class="fw-bold noto-tc-serif fs-lg-8 fs-2 mb-1">會員登入</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-12 d-flex d-lg-flex align-items-center align-items-lg-center flex-column">
+            <form class="wxl">
+              <label for="account" class="form-label noto-tc-sans fw-normal"
+                >帳號</label
+              >
+              <input
+                type="text"
+                id="account"
+                class="form-control bg-gray border border-2 border-black mb-3 mb-lg-3"
+                placeholder="請輸入帳號"
+              />
+              <label for="pwd" class="form-label noto-tc-sans fw-normal"
+                >密碼</label
+              >
+              <input
+                type="text"
+                id="pwd"
+                class="form-control bg-gray border border-2 border-black mb-lg-6 mb-6"
+                placeholder="請輸入密碼"
+              />
+              <div class="d-grid gap-2 mb-170">
+                <button class="btn btn-black fw-bold effect" type="button">
+                  登入<i class="icofont-rounded-double-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray border-top border-3 border-black">
+      <%- include('./layout/footer'); -%>
+    </div>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
