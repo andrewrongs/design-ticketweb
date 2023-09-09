@@ -14,8 +14,8 @@
 
     <div class="bg-gray">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-12 d-flex d-lg-flex align-items-center align-items-lg-center flex-column">
+        <div class="row d-flex justify-content-lg-center">
+          <div class="col-lg-4 col-12 d-flex d-lg-flex align-items-center align-items-lg-center flex-column justify-content-center justify-content-lg-center">
             <img
               src="../assets/images/sparkler.png"
               alt="LOGO"
@@ -24,8 +24,8 @@
             <p class="fw-bold noto-tc-serif fs-lg-8 fs-2 mb-1">會員登入</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 col-12 d-flex d-lg-flex align-items-center align-items-lg-center flex-column">
+        <div class="row d-flex justify-content-lg-center">
+          <div class="col-lg-4 col-12 ">
             <form class="wxl">
               <label for="account" class="form-label noto-tc-sans fw-normal"
                 >帳號</label
@@ -45,7 +45,7 @@
                 class="form-control bg-gray border border-2 border-black mb-lg-6 mb-6"
                 placeholder="請輸入密碼"
               />
-              <div class="d-grid gap-2 mb-170">
+              <div class="d-grid gap-2 mb-264">
                 <button class="btn btn-black fw-bold effect" type="button">
                   登入<i class="icofont-rounded-double-right"></i>
                 </button>
@@ -54,10 +54,12 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="bg-gray border-top border-3 border-black">
-      <%- include('./layout/footer'); -%>
-    </div>
+    
+      <div class="bg-gray border-top border-3 border-black">
+        <%- include('./layout/footer'); -%>
+      </div>
+
+  </div>  
     <script type="module" src="../main.js"></script>
   </body>
 </html>
