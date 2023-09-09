@@ -1,6 +1,6 @@
 # 購票網站
 
-## Github Pages : 
+## Github Pages :  https://105555.github.io/Week6_TicketWeb/login.html
 
 
 ## Node.js 版本
