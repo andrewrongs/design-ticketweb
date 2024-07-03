@@ -27,3 +27,8 @@
 
 ### 注意事項
 - 如需更改首頁路徑須從 vite.config.js 中修改
+- 如因不明原因部署失敗可改為手動部署
+  1. 進入 Repo 首頁點擊 Settings
+  2. 左側選單切換到 Pages
+  3. 點擊 source 更改為 Deploy from a branch 
+  4. 點擊 branch 選擇 gh-pages  
