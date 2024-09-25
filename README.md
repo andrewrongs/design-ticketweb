@@ -23,7 +23,7 @@
 - -> 執行 `npm run deploy` 指令進行自動化部署
   - 自動生成 dist 資料夾，無需進行打包
 
-### 專案呈現 : <https://105555.github.io/design-ticketweb/index>
+### 專案呈現 : <https://105555.github.io/design-ticketweb/>
 
 ### 注意事項
 - 部署首頁路徑檔名需為 index
